@@ -4,9 +4,17 @@ $(function () {
     $("header").toggleClass("open");
   });
   // メニューのリンクをクリックした時
-  $(".header-list a").on("click", function () {
-    $("header").toggleClass("open");
+  $(".header-nav a").on("click", function () {
+    $("header").removeClass("open");
   });
+  // 背景押したら戻る
+  $(".header-nav ul").on("click", function () {
+    $("header").removeClass("open");
+  });
+
+  
+
+
 
 
   /*=================================================
