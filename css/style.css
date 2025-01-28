@@ -125,7 +125,7 @@ h1 {
 }
 
 .top-photo li {
-  animation: fadein 9s infinite;
+  animation: fadein 12s infinite;
   opacity: 0;
   position: absolute;
 }
@@ -151,15 +151,15 @@ h1 {
     opacity: 0;
   }
 
-  30% {
+  3% {
     opacity: 1;
   }
 
-  60% {
+  33% {
     opacity: 1;
   }
 
-  80% {
+  36% {
     opacity: 1;
   }
 
